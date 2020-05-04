@@ -1,0 +1,16 @@
+.app-wrapper {
+  display: grid;
+  margin: 0 auto;
+  width: 1600px;
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+    "h h"
+    "n c";
+  font-size: 15px;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: burlywood;
+}

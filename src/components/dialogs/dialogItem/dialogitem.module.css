@@ -1,0 +1,13 @@
+.dialog {
+    padding: 10px;
+}
+
+.dialog a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.dialog a.active {
+    color: orchid;
+    
+}
