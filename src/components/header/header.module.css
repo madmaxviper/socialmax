@@ -4,9 +4,20 @@
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
   );
-  align-items: center;
   grid-area: h;
+  
 }
 .header img {
   width: 40px;
+}
+
+.loginBlock {
+  float: right;
+}
+
+.loginBlock a {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
